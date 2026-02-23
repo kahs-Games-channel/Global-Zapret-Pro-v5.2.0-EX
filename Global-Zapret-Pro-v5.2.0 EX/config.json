@@ -1,0 +1,54 @@
+{
+    "mode": "УЛЬТРА",
+    "services": {
+        "general": {
+            "enabled": true
+        },
+        "google": {
+            "enabled": true
+        },
+        "meta": {
+            "enabled": true
+        },
+        "x": {
+            "enabled": true
+        },
+        "tiktok": {
+            "enabled": true
+        },
+        "telegram": {
+            "enabled": true
+        },
+        "mylist": {
+            "enabled": true
+        },
+        "games": {
+            "enabled": true
+        },
+        "discord": {
+            "enabled": true
+        }
+    },
+    "packets": {
+        "tcp_ports": "80,88,443,1400,2053,2083,2087,2096,5222,5223,5228,8080,8443",
+        "udp_ports": "443,19294-19344,50000-50100",
+        "split_pos": 5,
+        "fooling": "ts",
+        "auto_restart": true,
+        "fragment_size": 256,
+        "ttl_min": 32,
+        "ttl_max": 128,
+        "window_size": 65535,
+        "randomize": false,
+        "use_proxy": false,
+        "proxy_address": "socks5://127.0.0.1:1080",
+        "custom_methods": "fake",
+        "quantum_mode": false,
+        "use_wormhole": false
+    },
+    "autostart": false,
+    "auto_run": true,
+    "start_minimized": true,
+    "show_notifications": true,
+    "first_start": false
+}
